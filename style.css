@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.content-wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+body{
+    background: #ccc;
+    margin: 0 15px;
+    padding: 15px 0;
+}
+ul{
+    padding-left: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #fff;
+}
+.header_container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    position: relative;
+}
+header ul li{
+    display: inline-block;
+}
+header .navbar li{
+    padding: 0 10px;
+}
+header .navbar li a{
+    color: #111111;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+header .logo img{
+    max-width: 125px;
+}
+header .social-icons{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+header .social-icons a {
+    padding: 0 5px;
+    text-align: center;
+    color: #111111;
+}
+header .menu-toggle{
+    display: none;
+    cursor: pointer;
+}
+
+/* banner css start  */
+
+.banner-main-wrapper{
+    padding-top: 170px;
+    padding-bottom: 100px;
+    background-image: url('/Images/banner-image-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-content {
+    padding-bottom:15px;
+    padding: 20px;
+}
+.banner-main-wrapper h1{
+    font-size: 62px;
+    line-height: 60px;
+    font-weight: 800;
+    color: #111;
+    padding: 20px 0;
+    padding-top: 5%;
+}
+.banner-main-wrapper p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    padding: 14px 0;
+}
+.button {
+    font-size: 16px;
+    margin: 35px 0;
+    padding: 11px 16px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    transition: all .3s linear;
+    display: inline-block;
+    border-width: 3px;
+    border-style: solid;
+    color: #111111;
+}
